@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Veselka" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,600italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/cbpAnimatedHeader.min.js"></script>
+	<title>Tushita</title>
+</head>
+<body>
+	<div class="cbp-af-header">
+	    <div class="cbp-af-inner">
+	        <h1><strong>Tush</strong>'s<br />site</h1>
+	        <nav class="clearfix">
+	            <a href="#">Home</a>
+	            <a href="#about-link">About</a>
+	        	<div class="emptyMenu"></div>
+	            <a href="#blog-link">Blog</a>
+	            <a href="#contact-link">Contact</a>
+	        </nav>
+	        <a href="#" id="pull"></a> 
+	    </div>
+	</div>
+	<div id="welcome" class="wrap">Welcome to my first webapp(using templates)!</div>
+	<a name="about-link" class="anchor">&nbsp;</a>
+	<div id="about-title">
+		<div class="wraptitle">
+			<div class="js-background-1 test">
+				<h2>About me</h2>
+			</div>
+		</div>
+	</div>
+	<div id="about" class="wrap">
+		<img class="circle right" src="img/tush.jpg" alt="Jane" />
+		<p class="orange"><strong>Hi, I’m Tushita.</strong></p>
+		<p><strong>About me:</strong> I am a Second year BTech CSE Student from IIITD.
+		<br>
+		Skills: C/C++, Java, Python ,HTML and CSS.
+		<br>
+		Softwares: Eclipse ,git , linux, gcc</p>
+	</div>
+	<a name="blog-link" class="anchor">&nbsp;</a>
+	<div id="blog-title">
+		<div class="wraptitle">
+			<div class="js-background-2 test"><h2>Blog</h2></div>
+		</div>
+	</div>
+	<div id="blog" class="wrap">
+		<div class="blog-item">
+			<img class="circle" src="img/html.png" alt="Daisy" />
+			<p class="title">HTML</p>
+			<p class="info">HTML stands for Hyper Text Markup Language.It desribes the structure of webpages.HTML elements are the building blocks of HTML pages.The <!DOCTYPE html> declaration defines this document to be HTML5...</p>
+			<a href="#inline1" class="readmore fancybox">Read more</a>
+		</div>
+		<div class="blog-item">
+			<img class="circle" src="img/cl.png" alt="Marigold" />
+			<p class="title">C</p>
+			<p class="info">C is a general-purpose, imperative computer programming language, supporting structured programming. C provides constructs that map efficiently to typical machine instructions.</p>
+			<a href="#inline2" class="readmore fancybox">Read more</a>
+		</div>
+		<div class="blog-item">
+			<img class="circle" src="img/java.png" alt="Rose" />
+			<p class="title">Java</p>
+			<p class="info">Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented,and specifically designed to have as few implementation dependencies as possible...</p>
+			<a href="#inline3" class="readmore fancybox">Read more</a>
+		</div>
+		<div class="blog-item last">
+			<img class="circle" src="img/python.png" alt="Tulip" />
+			<p class="title">Python</p>
+			<p class="info">Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code ...</p>
+			<a href="#inline4" class="readmore fancybox">Read more</a>
+		</div>
+	</div>
+	<div id="inline1" class="popupbox">
+		<h3>HTML</h3>
+		<img class="circle right" src="img/html.png" alt="Daisy" />
+		<p> With HTML constructs, images and other objects, such as interactive forms may be embedded into the rendered page.It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.<br> The "html" element is the root element of an HTML page.<br> The "head" element contains meta information about the document.<br>The "title" element specifies a title for the document. <br>The "body" element contains the visible page content. <br>The "h1" element defines a large heading.<br>The "p" element defines a paragraph.
+		</p>
+	</div>
+	<div id="inline2" class="popupbox">
+		<h3>C</h3>
+		<img class="circle right" src="img/cl.png" alt="Marigold" />
+		<p>Try following example using Try it option available at the top right corner of the below sample code box −<br> 
+		#include <stdio.h> <br>
+
+		int main() { <br>
+   		/* my first program in C */ <br>
+   		printf("Hello, World! \n"); <br>
+   
+   		return 0; <br>
+		}
+		</p>
+	</div>
+	<div id="inline3" class="popupbox">
+		<h3>Java</h3>
+		<img class="circle right" src="img/java.png" alt="Rose" />
+		<p>For executing any java program, you need to install the JDK if you don't have installed it, download the JDK and install it. Set path of the jdk/bin directory and create the java program,compile and run the java program.<br>
+		class Simple{  <br>
+    	public static void main(String args[]){<br>  
+    		System.out.println("Hello Java");  <br>
+    		}  <br>
+		}  <br>
+		save this file as Simple.java <br>
+		To compile:	javac Simple.java <br>
+		To execute:	java Simple <br>
+
+		Output: Hello Java
+
+		</p>
+	</div>
+	<div id="inline4" class="popupbox">
+		<h3>Python</h3>
+		<img class="circle right" src="img/python.png" alt="Tulip" />
+		<p>Add Two Numbers in Python
+		To add two numbers in python, you have to ask from user to enter two numbers to find the sum of given two numbers as shown here in the program given below.
+		<br>
+		while True:
+		<br> &emsp;	print("Enter '0' for exit.")
+		<br> &emsp;	print("Enter two numbers: ")
+		<br> &emsp;	val1 = int(input())
+		<br> &emsp;	val2 = int(input())
+		<br> &emsp;	if val1 == 0:
+		<br> &emsp;	break
+		<br> &emsp;	else:
+		<br> &emsp;	sum = val1 + val2
+		<br> print("Sum of the given two number:",sum,"\n")
+		</p>
+	</div>
+	<a name="contact-link" class="anchor">&nbsp;</a>
+	<div id="contact-title">
+		<div class="wraptitle">
+			<div class="js-background-3 test"><h2>Contact me</h2></div>
+		</div>
+	</div>
+	<div id="contact" class="wrap">
+		<p class="left">
+			IIITD<br />
+			Girls Hostel,Third floor<br />
+			New Delhi
+		</p>
+		<p class="right">
+			E-mail: tushita15108@iiitd.ac.in
+			<br>
+			Linkedin: https://in.linkedin.com/in/tushita-rathore-6968a3124
+		</p>
+	</div>
+	<div class="footer">
+		Template design by Veselka for <a href="http://andreasviklund.com" target="_blank">andreasviklund.com</a> | Best hosted at <a href="http://www.svenskadomaner.se" target="_blank">www.svenskadomaner.se</a>
+	</div>
+
+<script type="text/javascript">
+	$(function() {  
+	    var pull        = $('#pull');  
+	        menu        = $('nav a');  
+	        // menuHeight  = menu.height();  
+	  
+	    $(pull).on('click', function(e) {  
+	        e.preventDefault();  
+	        menu.slideToggle();  
+	    }); 
+
+	}); 
+	$(window).resize(function(){  
+	    var w = $(window).width();  
+	    if(w > 320 && menu.is(':hidden')) {  
+	        menu.removeAttr('style');  
+	    }  
+	});
+
+	$(document).ready(function() {
+		$('.fancybox').fancybox();
+	});
+
+	var $window = $(window);
+	var velocity = 0.5;
+
+	function update(){
+	    var pos = $window.scrollTop();
+
+	    $('.test').each(function() {
+	        var $element = $(this);
+	        var height = $element.height();
+
+	        $(this).css('backgroundPosition', '10% ' + Math.round((height - pos) * velocity) + 'px');
+	    });
+	};
+
+	$window.bind('scroll', update);
+
+
+	var cbpAnimatedHeader = (function() {
+ 
+    var docElem = document.documentElement,
+        header = document.querySelector( '.cbp-af-header' ),
+        didScroll = false,
+        changeHeaderOn = 100;
+ 
+    function init() {
+        window.addEventListener( 'scroll', function( event ) {
+            if( !didScroll ) {
+                didScroll = true;
+                setTimeout( scrollPage, 250 );
+            }
+        }, false );
+    }
+ 
+    function scrollPage() {
+        var sy = scrollY();
+        if ( sy >= changeHeaderOn ) {
+            classie.add( header, 'cbp-af-header-shrink' );
+        }
+        else {
+            classie.remove( header, 'cbp-af-header-shrink' );
+        }
+        didScroll = false;
+    }
+ 
+    function scrollY() {
+        return window.pageYOffset || docElem.scrollTop;
+    }
+ 
+    init();
+ 
+})();
+</script>
+</body>
+</html>
